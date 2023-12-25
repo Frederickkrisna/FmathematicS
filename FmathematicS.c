@@ -152,7 +152,7 @@ int main() {
         switch (choice) {
             case 1:
                 printf("Enter your username: ");
-                scanf("%s", username);
+                scanf("%[^\n]", username);
                 score = 0;
 
                 while (1) {
